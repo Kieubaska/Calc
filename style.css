@@ -1,0 +1,78 @@
+@font-face {
+    font-family: SF Pro;
+    src: url('SF Pro.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+.calculator {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: black;
+    font-family: 'SF Pro', Arial, sans-serif;
+}
+
+.input {
+    border: 1px solid black;
+    height: 100px;
+    text-align: right;
+    font-size: 90px;
+    padding-right: 10px;
+    transition: all .2s ease-in-out;
+    background-color: black;
+    color: white;
+}
+
+.input:hover {
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.5);
+    background-color: gray;
+}
+
+.operators div {
+    display: inline-block;
+    border-radius: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+    background-color: #ff9f0a;
+    color: white;
+    font-size: 40px;
+}
+
+.operators div:hover {
+    background-color: #cc7e09;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.num-buttons {
+    display: inline-block;
+}
+
+.numbers div {
+    display: inline-block;
+    border-radius: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+    background-color: #333333;
+    color: white;
+    font-size: 40px;
+}
+
+#clear {
+    background-color: #a5a5a5;
+    width: 205px;
+    color: black;
+}
+
+#clear:hover {
+    background-color: #797878;
+}
