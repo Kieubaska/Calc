@@ -25,10 +25,6 @@ body {
     color: white;
 }
 
-.input:hover {
-    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.5);
-    background-color: gray;
-}
 
 .operators div {
     display: inline-block;
@@ -36,7 +32,7 @@ body {
     width: 50px;
     text-align: center;
     padding: 10px;
-    margin: 20px 4px 10px 0;
+    margin: 10px 10px 10px 0;
     cursor: pointer;
     transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
     background-color: #ff9f0a;
@@ -59,7 +55,7 @@ body {
     width: 50px;
     text-align: center;
     padding: 10px;
-    margin: 20px 4px 10px 0;
+    margin: 10px 10px 10px 0;
     cursor: pointer;
     transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
     background-color: #333333;
@@ -69,10 +65,19 @@ body {
 
 #clear {
     background-color: #a5a5a5;
-    width: 205px;
+    width: 215px;
     color: black;
 }
 
 #clear:hover {
     background-color: #797878;
+}
+
+#times {
+    background-color: #ff9f0a;
+}
+
+#times:hover {
+    background-color: #cc7e09;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.5);
 }
