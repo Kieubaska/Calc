@@ -3,12 +3,14 @@
     src: url('SF Pro.ttf');
 }
 
+
 body {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: black;
 }
 button{
     border-style: none;
@@ -19,6 +21,7 @@ button{
     border-radius: 25px;
     background-color: black;
     font-family: 'SF Pro', Arial, sans-serif;
+    scale: 140%;
 }
 
 .input {
